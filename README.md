@@ -27,5 +27,4 @@ Hola Git
 ### Acerca de .gitignore
 El archivo `.gitignore` es creado para evitar que ciertos archivos sean rastreados por Git. En este caso se ignoraron los archivos que tuvieran la extensión `.log`, que son archivos de registro que no son reelevantes para el código fuente. Esto con el fin de mantener el repositorio enfocado a los archivos de código fuente.
 
-Al ejecutar `HolaMundo.py`, el programa imprimirá `"Hola Git"` en terminal. Para verificar que `debug.log` no se subió al repositorio remoto, se puede usar el comando **git status** antes de hacer un **git push**. Si `debug.log` no aparece en la lista de archivos no rastreados, significa que Git lo está ignorando correctamente.
-
+Al ejecutar `HolaMundo.py`, el programa imprimirá `"Hola Git"` en terminal. Para verificar que `debug.log` no se subió al repositorio remoto, se puede usar el comando **git status** antes de hacer un **git push**. Si `debug.log` no aparece en la lista de archivos no rastreados, significa que Git lo está ignorando correctamente. 
